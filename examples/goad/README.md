@@ -10,7 +10,7 @@ Two automation scripts to help deploy the Game Of Active Directory (GOAD) lab en
 - Sets up networking for lab environment
 - Prerequisites: Incus installed and configured
 
-### 2-start-goad.sh
+### 2-deploy-goad.sh
 - Deploys GOAD (Game Of Active Directory) lab environment 【1】
 - Sets up vulnerable Active Directory testing environment
 - Creates multi-forest, multi-domain Windows infrastructure
