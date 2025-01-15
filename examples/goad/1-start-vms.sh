@@ -4,7 +4,9 @@ incus network rm goad
 incus network create goad \
   network=UPLINK \
   ipv4.address=192.168.56.1/24 \
-  ipv4.nat=true
+  ipv4.nat=true \
+  ipv6.address=none \
+  ipv6.nat=none
 
 #DC02 with 8 cores and 16GB of ram
 incus init oszoo:winsrv/2019/ansible-cloud \
